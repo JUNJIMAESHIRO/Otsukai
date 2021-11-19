@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./asset/css/reset.css">
+  <link rel="stylesheet" href="./asset/css/test.css">
+  <title>Test Otsukai Time Attack</title>
+</head>
+
+  <section class="m_middle">
+    <!--  -->
+    <input type="radio" name="Oyatsu" id="Oyatsu1">
+      <label for="Oyatsu1">Chocolate</label>
+
+    <input type="radio" name="Oyatsu" id="Oyatsu2">
+      <label for="Oyatsu2">Cracker</label>
+
+    <input type="radio" name="Oyatsu" id="Oyatsu3">
+      <label for="Oyatsu3">Snack</label>
+
+    <input type="radio" name="Oyatsu" id="Oyatsu4">
+      <label for="Oyatsu4">Gum</label>
+
+    <button id="start">Start</button>
+  </section>
+
+  <div id="clock">00:00:00</div>
+  <form>
+    <input type="button" id="stop" value="Stop" disabled>
+    <input type="button" id="restart" value="Restart" disabled>
+    <input type="button" id="reset" value="Reset" disabled>
+  </form>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./asset/js/test.js"></script>
+  <script src="./asset/js/api.js"></script>
+</body>
+</html>
