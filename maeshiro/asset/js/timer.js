@@ -64,7 +64,7 @@ $(function () {
       min = 0;
       hour += 1;
     }
-
+    
     // 0埋め
     sec_number = ('0' + sec).slice(-2);
     min_number = ('0' + min).slice(-2);

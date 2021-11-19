@@ -1,6 +1,6 @@
 $(function(){
 
-  $(".btn").on("click",function(){
+  $("#start").on("click",function(){
       let input = $("#input").val()
       console.log(input);
 
