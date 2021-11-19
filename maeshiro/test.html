@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,45 @@
   <link rel="stylesheet" href="./asset/css/test.css">
   <title>Test Otsukai Time Attack</title>
 </head>
+
 <body>
+  <div class="t_top">
+    <h1 class='t_title'>OTSUKAI<i class="fas fa-shopping-cart icon"></i></h1>
+    <h2 class='t_explain'>
+      Try your luck for a tasty reward before the timer runs out ...<i class="fas fa-running"></i>
+    </h2>
+  </div>
   <section class="m_middle">
-    <!-- radioboxの選択肢を記述 -->
+<!-- radioboxの選択肢を記述 -->
     <input type="radio" name="Oyatsu" id="Oyatsu1">
-      <label for="Oyatsu1">Chocolate</label>
+    <label for="Oyatsu1">Chocolate</label>
     <input type="radio" name="Oyatsu" id="Oyatsu2">
-      <label for="Oyatsu2">Cracker</label>
+    <label for="Oyatsu2">Cracker</label>
     <input type="radio" name="Oyatsu" id="Oyatsu3">
-      <label for="Oyatsu3">Snack</label>
+    <label for="Oyatsu3">Snack</label>
     <input type="radio" name="Oyatsu" id="Oyatsu4">
-      <label for="Oyatsu4">Gum</label>
-    <!-- radioboxの選択肢はここまで -->
+    <label for="Oyatsu4">Gum</label>
+  <!-- radioboxの選択肢はここまで -->
+  <!-- startボタンの記述 -->
     <button id="start">Start</button>
   </section>
+  <!-- ストッップウォッチのhtmlを記述 -->
   <div id="clock">00:00:00</div>
   <form>
     <input type="button" id="stop" value="Stop" disabled>
     <input type="button" id="restart" value="Restart" disabled>
     <input type="button" id="reset" value="Reset" disabled>
   </form>
+  <div class="snack">
+    <img src="https://placehold.jp/300x400.png" alt="ダミー">
+    <img src="https://placehold.jp/300x400.png" alt="ダミー">
+    <img src="https://placehold.jp/300x400.png" alt="ダミー">
+  </div>
 
+  <script src="https://kit.fontawesome.com/d8701b6f38.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./asset/js/script.js"></script>
   <script src="./asset/js/api.js"></script>
 </body>
+
 </html>
