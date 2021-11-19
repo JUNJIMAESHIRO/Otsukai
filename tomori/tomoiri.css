@@ -3,7 +3,7 @@
     color: #B15C65;
 }
 
-.switch{
+/* .switch{
     display: flex;
     justify-content: center;
     margin-top: 3%;
@@ -15,7 +15,7 @@ label{
 
 .btn{
     margin-left: 1%;
-}
+} */
 
 
 .snack{
@@ -28,3 +28,35 @@ label{
     margin-right: 10px;
 }
 
+.m_middle{
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  /* 名前入力欄 */
+#name{
+    height: 25%;
+    width: 60%;
+    margin: auto 0;
+    border: solid 2px #B15C65;
+  }
+  
+  /* クッリクされた際のボーダーの枠の変化 */
+  #name[type="text"]:focus {
+    outline: solid 2px #B15C65;
+    border-color: transparent;
+  }
+
+  /* startボタン */
+#start{
+    height: 29%;
+    width: 20%;
+    background-color: #FBFBF6;
+    font-size: large;
+    color: #B15C65;
+    border: solid 2px #B15C65;
+  }

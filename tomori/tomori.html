@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,28 @@
     <link rel="stylesheet" href="./tomoiri.css">
     <title>Otsukai</title>
 </head>
+
 <body>
-    <div class="switch">
+    <!-- <div class="switch">
     <label for="input">あなたのお名前</label><input type="text" id="input"><button class="btn">スイッチ</button>
-    </div>
+    </div> -->
+    <section class="m_middle"></section>
+    <input type="radio" name="Oyatsu" value="チョコ" id="Oyatsu1">
+    <label for="Oyatsu1">Chocolate</label>
+    <input type="radio" name="Oyatsu" value="クッキー" id="Oyatsu2">
+    <label for="Oyatsu2">Cookie</label>
+    <input type="radio" name="Oyatsu" value="スナック" id="Oyatsu3">
+    <label for="Oyatsu3">Snack</label>
+    <input type="radio" name="Oyatsu" value="グミ" id="Oyatsu4">
+    <label for="Oyatsu4">Gum</label>
+    <button id="start">Start</button>
+    </section>
+    <div id="clock">00:00:00</div>
+    <form>
+        <input type="button" id="stop" value="Stop" disabled>
+        <input type="button" id="restart" value="Restart" disabled>
+        <input type="button" id="reset" value="Reset" disabled>
+    </form>
 
     <div class="snack">
         <img src="https://placehold.jp/300x400.png" alt="ダミー">
@@ -24,4 +43,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./tomori.js"></script>
 </body>
+
 </html>
