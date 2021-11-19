@@ -14,7 +14,7 @@ body{
 }
 
 /* 名前入力欄 */
-.m_middle input{
+#name{
   height: 25%;
   width: 60%;
   margin: auto 0;
@@ -22,20 +22,13 @@ body{
 }
 
 /* クッリクされた際のボーダーの枠の変化 */
-input[type="text"]:focus {
+#name[type="text"]:focus {
   outline: solid 2px #B15C65;
   border-color: transparent;
 }
 
-/* 名前入力欄の文字の位置、カラー、サイズ */
-.m_middle input::placeholder{
-  text-align: center;
-  color: #B15C65;
-  font-size: large;
-}
-
-/*  */
-.m_start{
+/* startボタン */
+#start{
   height: 29%;
   width: 20%;
   background-color: #FBFBF6;
