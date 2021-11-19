@@ -1,0 +1,30 @@
+*{
+    background-color: #FBFBF6;
+    color: #B15C65;
+}
+
+.switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+label{
+    margin-right: 2%;
+}
+
+.btn{
+    margin-left: 1%;
+}
+
+
+.snack{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.snack img{
+    margin-right: 10px;
+}
+
