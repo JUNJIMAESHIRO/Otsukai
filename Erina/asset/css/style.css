@@ -22,3 +22,62 @@ body {
 .icon {
     font-size: 50px;
 }
+.switch{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+label{
+    margin-right: 2%;
+}
+
+.btn{
+    margin-left: 1%;
+}
+
+
+.snack{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.snack img{
+    margin-right: 10px;
+}
+
+/* ここから名前入力欄、ボタン、時間表示のcssを記述してます。 */
+/* middleの全体のサイズ */
+.m_middle{
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  /* 名前入力欄 */
+  #name{
+    height: 25%;
+    width: 60%;
+    margin: auto 0;
+    border: solid 2px #B15C65;
+  }
+  
+  /* クッリクされた際のボーダーの枠の変化 */
+  #name[type="text"]:focus {
+    outline: solid 2px #B15C65;
+    border-color: transparent;
+  }
+  
+  /* startボタン */
+  #start{
+    height: 29%;
+    width: 20%;
+    background-color: #FBFBF6;
+    font-size: large;
+    color: #B15C65;
+    border: solid 2px #B15C65;
+  }
