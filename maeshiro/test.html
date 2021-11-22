@@ -19,14 +19,25 @@
   </div>
   <section class="m_middle">
     <!-- radioboxの選択肢を記述 -->
-    <input type="radio" name="Oyatsu" id="Oyatsu1">
-    <label for="Oyatsu1">Chocolate</label>
-    <input type="radio" name="Oyatsu" id="Oyatsu2">
-    <label for="Oyatsu2">Cracker</label>
-    <input type="radio" name="Oyatsu" id="Oyatsu3">
-    <label for="Oyatsu3">Snack</label>
-    <input type="radio" name="Oyatsu" id="Oyatsu4">
-    <label for="Oyatsu4">Gum</label>
+    <div class="chocolate">
+      <input type="radio" name="Oyatsu" id="Oyatsu1">
+      <label for="Oyatsu1">Chocolate</label>
+    </div>
+
+    <div class="cracker">
+      <input type="radio" name="Oyatsu" id="Oyatsu2">
+      <label for="Oyatsu2">Cracker</label>
+    </div>
+
+    <div class="snack">
+      <input type="radio" name="Oyatsu" id="Oyatsu3">
+      <label for="Oyatsu3">Snack</label>
+    </div>
+
+    <div class="gum">
+      <input type="radio" name="Oyatsu" id="Oyatsu4">
+      <label for="Oyatsu4">Gum</label>
+    </div>
     <!-- radioboxの選択肢はここまで -->
     <!-- startボタンの記述 -->
     <button id="start">Start</button>
@@ -40,10 +51,17 @@
       <input type="button" id="reset" value="Reset" disabled>
     </form>
   </div>
-  <div class="snack">
-    <img src="https://placehold.jp/300x400.png" alt="ダミー">
-    <img src="https://placehold.jp/300x400.png" alt="ダミー">
-    <img src="https://placehold.jp/300x400.png" alt="ダミー">
+  <!-- 表示される画像のhtml -->
+  <div class="snacks">
+    <div class="snack1">
+      <img src="" alt="">
+    </div>
+    <div class="snack2">
+      <img src="" alt="">
+    </div>
+    <div class="snack3">
+      <img src="" alt="">
+    </div>
   </div>
   <script src="https://kit.fontawesome.com/d8701b6f38.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
