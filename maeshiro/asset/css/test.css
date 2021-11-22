@@ -21,6 +21,30 @@ body{
   font-size: 50px;
 }
 
+.switch {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+label{
+  font-size: 30px;
+}
+
+.btn{
+  margin-left: 1%;
+}
+
+.snacks{
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0;
+}
+
+.snack img{
+  margin-right: 10px;
+}
+
 /* ここから名前入力欄、ボタン、時間表示のcssを記述してます。 */
 /* middleの全体のサイズ */
 .m_middle{
@@ -85,12 +109,12 @@ body{
 }
 
 /* Tomoriさんのcss */
-.snack{
+.snacks{
   display: flex;
   justify-content: center;
   margin: 5% 0;
 }
 
-.snack img{
+.snacks img{
   margin-right: 10px;
 }
