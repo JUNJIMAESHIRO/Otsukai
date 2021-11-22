@@ -30,6 +30,11 @@ body {
   margin-top: 3%;
 }
 
+
+input[name='Oyatsu']{
+  transform: translateY(-50%);
+}
+
 label{
   font-size: 30px;
 }
@@ -84,7 +89,15 @@ label{
   font-size: large;
   color: #B15C65;
   border: solid 2px #B15C65;
+  cursor: pointer;
+  display: block;
 }
+
+#start:hover {
+  background-color:#B15C65;
+  border-color: #B15C65;
+  color: #FBFBF6;
+} 
 
 /* Timerのcss */
 .timer{
@@ -114,6 +127,7 @@ label{
   width: 10vw;
 }
 
+<<<<<<< HEAD
 .angledown{
   display: none !important;
 }
@@ -141,3 +155,21 @@ label{
     display: none;
   }
 }
+=======
+
+@media screen and (max-width: 480px) {
+
+  .t_title{
+    font-size: 50px;
+  } 
+  .snacks{
+    size: 50px;
+  }
+  #clock{
+    font-size: 40px;
+  }
+  .timer_button input{
+    width: 10vh;
+  }
+} 
+>>>>>>> d65dc4b63428b4bfbc59027c42e4b1999858c719

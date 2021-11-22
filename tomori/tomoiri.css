@@ -60,3 +60,9 @@ label{
     color: #B15C65;
     border: solid 2px #B15C65;
   }
+
+  @media only screen and (max-width: 780px){
+    .snack{
+      width: 90%;
+    }
+  }
