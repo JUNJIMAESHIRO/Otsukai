@@ -5,6 +5,7 @@ body {
     width: 100%;
 }
 
+/* header */
 .t_top {
     text-align: center;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 label{
-    margin-right: 2%;
+    font-size: 30px;
 }
 
 .btn{
@@ -37,10 +38,12 @@ label{
 }
 
 
-.snack{
+.snacks{
     display: flex;
-    justify-content: center;
-    margin: 5% 0;
+    justify-content: space-around;
+    margin: 10% 0;
+    
+   
 }
 
 .snack img{
@@ -58,7 +61,7 @@ label{
     margin: 0 auto;
   }
   
-  /* 名前入力欄 */
+
   #name{
     height: 25%;
     width: 60%;
