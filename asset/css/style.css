@@ -30,6 +30,11 @@ body {
   margin-top: 3%;
 }
 
+
+input[name='Oyatsu']{
+  transform: translateY(-50%);
+}
+
 label{
   font-size: 30px;
 }
@@ -112,4 +117,11 @@ label{
 .timer_button input{
   height: 5vh;
   width: 10vw;
+}
+
+@media screen and (max-width:480px) {
+  .t_title{
+    font-size: 50px;
+  }
+  
 }

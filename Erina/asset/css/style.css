@@ -23,6 +23,7 @@ body {
 .icon {
     font-size: 50px;
 }
+/* headerここまで */
 
 .switch{
     display: flex;
@@ -42,13 +43,15 @@ label{
 .snacks{
     display: flex;
     justify-content: space-around;
-    margin: 10% 0;
-    
-   
+    margin: 10% 0;  
 }
 
 .snack img{
     margin-right: 10px;
+}
+
+input[name='Oyatsu']{
+  transform: translateY(-50%);
 }
 
 /* ここから名前入力欄、ボタン、時間表示のcssを記述してます。 */
