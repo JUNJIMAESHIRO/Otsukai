@@ -127,9 +127,15 @@ label{
   width: 10vw;
 }
 
-@media screen and (max-width:480px) {
+
+@media screen and (max-width: 480px) {
+  /* .t_top{
+    font-size: 100%;
+  }
   .t_title{
     font-size: 50px;
+  } */
+  .snacks{
+    size: 50px;
   }
-  
-}
+} 
