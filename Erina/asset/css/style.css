@@ -85,3 +85,32 @@ label{
     color: #B15C65;
     border: solid 2px #B15C65;
   }
+
+  /* timer */
+
+  .timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100vw;
+  }
+  
+  #clock{
+    margin: 0 auto;
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  .timer_button{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .timer_button input{
+    height: 5vh;
+    width: 10vw;
+  }

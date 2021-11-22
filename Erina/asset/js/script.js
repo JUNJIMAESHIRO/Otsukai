@@ -3,22 +3,16 @@ $(function () {
   $('#start').on('click', function () {
     //     // https://www.sysbird.jp/webapi/?apikey=guest&keyword=%E3%82%AB%E3%83%AC%E3%83%BC&max=10&order=r
 
-    // let a = $('input:radio[name="Oyatsu"]:checked').val();
-
-    // let data = {
-    //   keyword: a,
-    //   apikey: 'guest',
-    //   format: 'jsonp',
-    //   order: 'r'
-    // }
-
+    let a = $('input:radio[name="Oyatsu"]:checked').val();
 
     let data = {
-      keyword: 'snack',
+      keyword: a,
       apikey: 'guest',
       format: 'jsonp',
       order: 'r'
     }
+
+
 
 
     $.ajax({
