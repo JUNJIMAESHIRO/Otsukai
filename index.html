@@ -11,23 +11,60 @@
 </head>
 
 <body>
-
-  <h1 class='t_title'>OTSUKAI</h1>
-  <h2 class='t_explain'>
-    Go get today's your lucky snack before the time is over ...<i class="fas fa-running"></i><br>
-    and enjoy beautiful Japanese snacks
-
-  </h2>
-
-
-
-
+  <div class="t_top">
+    <h1 class='t_title'>OTSUKAI<i class="fas fa-shopping-cart icon"></i></h1>
+    <h2 class='t_explain'>
+      Try your luck for tasty rewards! How fast can you do it? ...<i class="fas fa-running"></i>
+    </h2>
+  </div>
   <section class="m_middle">
-    <input type="text" id="name" name="name" placeholder="Your Name">
-    <button class="m_start">Start</button>
-  </section>
-  <script src="https://kit.fontawesome.com/d8701b6f38.js" crossorigin="anonymous"></script>>>>
+    <!--  -->
 
+    <div class="chocolate">
+      <input type="radio" name="Oyatsu" value="チョコ" id="Oyatsu1">
+      <label for="Oyatsu1">Chocolate</label>
+    </div>
+
+    <div class="cracker">
+      <input type="radio" name="Oyatsu" value="クッキー" id="Oyatsu2">
+      <label for="Oyatsu2">Cracker</label>
+    </div>
+
+    <div class="snack">
+      <input type="radio" name="Oyatsu" value="スナック" id="Oyatsu3">
+      <label for="Oyatsu3">Snack</label>
+    </div>
+
+    <div class="gum">
+      <input type="radio" name="Oyatsu" value="ガム" id="Oyatsu4">
+      <label for="Oyatsu4">Gum</label>
+    </div>
+
+    <button id="start">Start</button>
+  </section>
+
+  <div id="clock">00:00:00</div>
+  <form>
+    <input type="button" id="stop" value="Stop" disabled>
+    <input type="button" id="restart" value="Restart" disabled>
+    <input type="button" id="reset" value="Reset" disabled>
+  </form>
+
+  <div class="snacks">
+    <div class="snack1">
+      <img src="" alt="">
+    </div>
+    <div class="snack2">
+      <img src="" alt="">
+    </div>
+    <div class="snack3">
+      <img src="" alt="">
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/d8701b6f38.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="./asset/js/script.js"></script>
 </body>
 
