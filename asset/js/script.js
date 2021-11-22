@@ -1,4 +1,8 @@
 $(function () {
+  $(".angledown").click(function () {
+    // console.log("test");
+    $(".okasi").slideToggle();
+  });
 
     $('#start').on('click', function () {
       //     // https://www.sysbird.jp/webapi/?apikey=guest&keyword=%E3%82%AB%E3%83%AC%E3%83%BC&max=10&order=r
