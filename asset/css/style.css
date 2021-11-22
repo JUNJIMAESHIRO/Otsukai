@@ -16,7 +16,7 @@ body {
 }
 
 .t_explain {
-  font-size: 20px;
+  font-size: 30px;
   margin: 30px 0;
 }
 
@@ -47,14 +47,11 @@ label{
 .snacks{
   display: flex;
   justify-content: space-around;
-  margin: 10% 0;
+  margin: 5% 0;
   
  
 }
 
-.snack img{
-  margin-right: 10px;
-}
 
 /* ここから名前入力欄、ボタン、時間表示のcssを記述してます。 */
 /* middleの全体のサイズ */
@@ -157,6 +154,10 @@ label{
   .t_title{
     font-size: 50px;
   } 
+  .t_explain{
+    font-size: 20px;
+
+  }
   .snacks{
     size: 50px;
   }
