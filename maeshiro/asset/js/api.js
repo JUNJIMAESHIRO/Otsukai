@@ -23,6 +23,8 @@ $(function () {
               var oyatsu =response["item"];
               console.log(oyatsu[0]);
               console.log(oyatsu[0]["image"]);
+              var i = oyatsu[0]["image"]
+              $('#start').on
               //成功したとき実行したいスクリプトを記載
           })
           .fail(function (xhr) {
