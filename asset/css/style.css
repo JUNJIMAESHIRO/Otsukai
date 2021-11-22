@@ -129,13 +129,16 @@ label{
 
 
 @media screen and (max-width: 480px) {
-  /* .t_top{
-    font-size: 100%;
-  }
   .t_title{
     font-size: 50px;
-  } */
+  } 
   .snacks{
     size: 50px;
+  }
+  #clock{
+    font-size: 40px;
+  }
+  .timer_button input{
+    width: 10vh;
   }
 } 
