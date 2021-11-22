@@ -127,7 +127,6 @@ label{
   width: 10vw;
 }
 
-<<<<<<< HEAD
 .angledown{
   display: none !important;
 }
@@ -154,10 +153,6 @@ label{
   .okasi{
     display: none;
   }
-}
-=======
-
-@media screen and (max-width: 480px) {
 
   .t_title{
     font-size: 50px;
@@ -171,5 +166,4 @@ label{
   .timer_button input{
     width: 10vh;
   }
-} 
->>>>>>> d65dc4b63428b4bfbc59027c42e4b1999858c719
+}
