@@ -86,8 +86,7 @@ label{
   border: solid 2px #B15C65;
 }
 
-/* timer */
-
+/* Timerのcss */
 .timer{
   display: flex;
   justify-content: center;
